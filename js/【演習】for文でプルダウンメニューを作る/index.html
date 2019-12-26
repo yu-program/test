@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset= "UTF-8">
+		<title>【演習】for文でプルダウンメニューを作る</title>
+	</head>
+	<body>
+		<h3>【演習】for文でプルダウンメニューを作る</h3>
+		<h4>通常のプルダウンメニュー</h4>
+		<form>
+			<select name="todohuken">
+				<option value="error">選択してください</option>
+				<option value="001">東京都</option>
+				<option value="002">神奈川県</option>
+				<option value="003">千葉</option>
+				<option value="004">埼玉</option>
+			</select>
+		</form>
+		<h4>for文を使用してプルダウンメニュー作成</h4>
+		<form>
+			<select name= "age">
+				<option>選択してください</option>
+				<script>
+					for(var i = 18; i <= 65; i++){
+						document.write("<option>");
+						document.write(i);
+						document.write("</option>");
+					}
+				</script>
+			</select>
+		</form>
+	</body>
+</html>

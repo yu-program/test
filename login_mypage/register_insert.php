@@ -1,7 +1,7 @@
 ﻿<?php
 mb_internal_encoding("utf8");
 
-$pdo = new PDO("mysql:dbname=lesson1;host=localhost;","root","mysql");
+$pdo = new PDO("mysql:dbname=yamakawa;host=localhost;","root","mysql");
 
 $stmt = $pdo->prepare("insert into login_mypage (name,mail,password,picture,comments)values(?,?,?,?,?)");
 

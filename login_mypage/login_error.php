@@ -11,9 +11,9 @@
 			<div class="login"><a href="login.php">ログイン</a></div>
 		</header>
 		<main>
-            <h2>ログインエラーですよ</h2>
 			<form method="post" action="mypage.php">
 				<div class="form_contents">
+                    <p>メールアドレスまたはパスワードが間違っています。</p>
 					<div class="mail">
 						<label>メールアドレス</label><br>
 						<input type="text" class="formBox" size=40 name="mail" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required>

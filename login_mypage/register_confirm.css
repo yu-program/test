@@ -9,7 +9,6 @@ header {
 	height: 80px;
 	background-color: white;
 	box-shadow: 2px 2px 4px lightgray;
-
 }
 
 header img {
@@ -29,7 +28,6 @@ main {
 	clear: left;
 	width: 100%;
 }
-
 
 .confirm_contents {
 	margin: 0 auto;
@@ -80,7 +78,7 @@ p {
 
 .submit {
 	display: inline-block;
-	
+    margin-bottom: 20px; 
 }
 
 .return_button {
@@ -92,7 +90,6 @@ p {
 	background-color: #dfdfdf;
 	width: 200px;
     margin-left: 95px;
-	
 }	
 
 .insert_botton {

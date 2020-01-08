@@ -9,7 +9,6 @@ header {
 	height: 80px;
 	background-color: white;
 	box-shadow: 2px 2px 4px lightgray;
-
 }
 
 header img {
@@ -46,6 +45,22 @@ form {
 	margin-left: 25px;
 	margin-right: 25px;
 	margin-bottom: 30px;
+}
+
+p {
+    text-align: center;
+    padding-top: 30px;
+}
+
+span {
+    background-color: #f08080;
+    color: #8b0000;
+}
+
+.mistake_error {
+    width: 300px;
+    height: 20px;
+    background-color: 
 }
 
 label {

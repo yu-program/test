@@ -46,9 +46,12 @@ while($row =$stmt->fetch()){
     $_SESSION['comments'] = $row['comments'];
 }
 
-//mypage.phpへ　リダイレクト
-if(empty($_SESSION['id'])){
+//mypage.phpへリダイレクト ←$_SESSION['id']があったら(編集した値がDBに登録され、selectできたら)という解釈であっているか？ 
+if(isset($_SESSION['id'])){
     header("location:mypage.php");
 }
+
+//最後にデータベースとの接続を切断する。
+$pdo = NULL;
 
 ?>

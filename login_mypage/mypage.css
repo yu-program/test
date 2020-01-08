@@ -9,7 +9,6 @@ header {
 	height: 80px;
 	background-color: white;
 	box-shadow: 2px 2px 4px lightgray;
-
 }
 
 header img {
@@ -40,7 +39,6 @@ main {
 	box-shadow: 4px 4px 4px	lightgray;
 	margin-top: 40px;
 	margin-bottom: 40px;
-
 }
 
 h2 {
@@ -113,20 +111,6 @@ p {
     text-align: center;
 }
 
-/*
-.return_button {
-	border: 1px solid lightgray;
-	border-radius: 5px;
-	border-bottom: 2px solid gray;
-	padding: 4px 10px;
-	color: white;
-	background-color: #dfdfdf;
-	width: 200px;
-    margin-left: 95px;
-	
-}	
-*/
-
 .insert_botton {
 	margin: 0 auto;
 	border: 1px solid lightgray;
@@ -136,7 +120,6 @@ p {
 	border-radius: 5px;
 	border-bottom: 2px solid gray;
 	width: 200px;
-    
 }
 
 footer {

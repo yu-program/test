@@ -1,3 +1,13 @@
+<?php
+session_start();
+
+//ログイン状態ならmypage.phpへリダイレクト処理。$_SESSION['id']の中に値があるのなら(ログイン状態なら)、mypage.phpへ移動する。
+if(isset($_SESSION['id'])){
+    header("Location:mypage.php");
+}
+
+?>
+
 <!DOCTYPE HTML>
 <html lang="ja">
 	<head>

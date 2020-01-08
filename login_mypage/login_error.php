@@ -1,3 +1,13 @@
+<?php
+session_start();
+
+//ログイン状態なら、mypage.phpへリダイレクトする。
+if(isset($_SESSION['id'])){
+    header("Location:mypage.p");
+}
+
+?>
+
 <!DOCTYPE HTML>
 <html lang="ja">
 	<head>
@@ -7,13 +17,13 @@
 	</head>
 	<body>
 		<header>
-			<img src="4eachblog_logo.jpg">
+            <img src="4eachblog_logo.jpg">
 			<div class="login"><a href="login.php">ログイン</a></div>
 		</header>
 		<main>
-			<form method="post" action="mypage.php">
-				<div class="form_contents">
-                    <p>メールアドレスまたはパスワードが間違っています。</p>
+			<div class="form_contents">
+                <form method="post" action="mypage.php">
+                    <p><span>メールアドレスまたはパスワードが間違っています。</span></p>
 					<div class="mail">
 						<label>メールアドレス</label><br>
 						<input type="text" class="formBox" size=40 name="mail" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required>
@@ -25,8 +35,8 @@
                     <div class="botton">
 						<input type="submit" class="login_botton" size="35" value="ログイン">
                     </div>
-				</div>
-			</form>
+                </form>
+            </div>			
 		</main>
 		<footer>
 			©2019 InterNous.inc. All right reserved

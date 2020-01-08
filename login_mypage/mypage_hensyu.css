@@ -9,7 +9,6 @@ header {
 	height: 80px;
 	background-color: white;
 	box-shadow: 2px 2px 4px lightgray;
-
 }
 
 header img {
@@ -30,7 +29,6 @@ main {
 	width: 100%;
 }
 
-
 .confirm_contents {
 	margin: 0 auto;
 	border: 2px solid lightgray;
@@ -40,7 +38,6 @@ main {
 	box-shadow: 4px 4px 4px	lightgray;
 	margin-top: 40px;
 	margin-bottom: 40px;
-
 }
 
 h2 {

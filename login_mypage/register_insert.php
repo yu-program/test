@@ -14,6 +14,7 @@ $stmt->bindvalue(5,$_POST['comments']);
 
 //実行(insertを)
 $stmt->execute();
+
 //DBの切断
 $pdo =NULL;
 
